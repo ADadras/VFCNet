@@ -108,7 +108,7 @@ Target from paper: CDA-1=0.683±0.002, CDA-2=0.629±0.004
 
 ```bibtex
 @inproceedings{vfcnet2025,
-  title={VFCNet: Vector Flow Composition Network for Photographic Image Composition Classification},
+  title={Semantically Stable Image Composition Analysis via Saliency and Gradient Vector Flow Fusion},
   author={Armin Dadras, Robert Sablatnig, Franziska Proska, Markus Seidl},
   booktitle={},
   year={2026}
