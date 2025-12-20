@@ -28,7 +28,7 @@ kupcp_root: Path = Path("/your/path/to/kupcp")     # KU-PCP dataset
 picd_root: Path = Path("/your/path/to/PICD")       # PICD dataset  
 cache_root: Path = Path("/your/path/to/cache")     # Saliency cache (auto-generated)
 picd_cache_root: Path = Path("/your/path/to/picd_cache")
-dino_repo: str = "/your/path/to/dinov3"            # Clone facebookresearch/dinov2
+dino_repo: str = "/your/path/to/dinov3"            # path to dinov3 ViT\B-16
 dino_weights: str = "/your/path/to/dinov3_vitb16_pretrain.pth"
 ```
 
