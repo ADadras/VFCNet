@@ -1,7 +1,16 @@
 # VFCNet
 
-PyTorch implementation of VFCNet for photographic image composition classification. This model uses Gradient Vector Flow (GVF) features combined with DINOv3 representations.
+Official PyTorch implementation of VFCNet for photographic image composition classification. This model uses Gradient Vector Flow (GVF) features combined with DINOv3 representations.
+![VFCNet Architecture](vfcnet_architecture.svg)
 
+*Figure 1: VFCNet Architecture - Dual-stream GVF extraction with attention-based fusion and multi-scale DINOv3 feature extraction.*
+
+The architecture processes images through:
+1. **Saliency computation** using DeepGaze IIE
+2. **Dual-stream GVF extraction** (baseline and saliency-enhanced)
+3. **Attention-based fusion** of GVF streams
+4. **Multi-scale feature extraction** using DINOv3 ViT-B/16
+5. **Differential GVF feature computation** (divergence, curl, magnitude)
 ## Requirements
 
 - Python 3.8+
